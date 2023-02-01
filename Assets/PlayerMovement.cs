@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         Movment = context.ReadValue<Vector2>();
+        Debug.Log("hello");
     }
 
     public void onJump(InputAction.CallbackContext context) 

@@ -2,7 +2,7 @@
     "name": "Player Controles",
     "maps": [
         {
-            "name": "Player",
+            "name": "Player1",
             "id": "fff6973c-f24c-43c3-8c5c-89bf643bca9f",
             "actions": [
                 {
@@ -14,33 +14,57 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Movement2",
+                    "type": "PassThrough",
+                    "id": "81ebb57a-0a97-4dc6-8721-c7a5aee1ba13",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "7c58f087-ce94-422f-8fa1-b2e28ad0cf95",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "name": "Jump2",
+                    "type": "Button",
+                    "id": "bdbc0802-a0bf-46e7-8a3c-80a1a85ec32b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "cdfc1ae6-7dff-4636-b425-e1bede2fc131",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire2",
+                    "type": "Button",
+                    "id": "00b134ae-1558-4531-8cc2-ef407f7159be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+>>>>>>> Stashed changes
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "74d7b9ac-bc5c-4da4-8c00-9267f0f3b74b",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "191206f7-0adb-4e32-aded-0b15ab9b4241",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controler",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -102,14 +126,94 @@
                 },
                 {
                     "name": "",
-                    "id": "4f1e804a-51f1-4ca5-ac80-5b6fe56b8c6f",
-                    "path": "<Gamepad>/leftStick",
+                    "id": "23467e60-7c26-4dfe-9820-634aaffb2f3c",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controler",
-                    "action": "Movement",
+                    "groups": "",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "name": "UDLR",
+                    "id": "b88b5194-e29e-4dec-aa04-f295c8361baf",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "532e2905-0026-451c-a439-5876fe7d381f",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Movement2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "810d18d1-396f-4446-8c8e-800dd5704154",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "54bc0281-d628-42af-8ef8-41db84a5b65a",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "cbb6eccd-3852-4c86-b36b-f3b5a75833cc",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a414051b-ee51-498d-9b7b-e91a67e2e4ea",
+                    "path": "<Keyboard>/numpad0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68b66714-20ed-4433-9843-1734824b43e5",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+>>>>>>> Stashed changes
                 }
             ]
         }
@@ -122,17 +226,6 @@
                 {
                     "devicePath": "<Keyboard>",
                     "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Controler",
-            "bindingGroup": "Controler",
-            "devices": [
-                {
-                    "devicePath": "<XInputController>",
-                    "isOptional": true,
                     "isOR": false
                 }
             ]

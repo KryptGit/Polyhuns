@@ -280,9 +280,40 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 7c58f087-ce94-422f-8fa1-b2e28ad0cf95
     m_ActionName: Player/Jump[/Keyboard/space,/XInputControllerWindows/buttonSouth]
+<<<<<<< Updated upstream
+=======
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8945128607989167839}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: onShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cdfc1ae6-7dff-4636-b425-e1bede2fc131
+    m_ActionName: Player/Fire[/Keyboard/j,/XInputControllerWindows/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 98500c0a-9e4f-46da-8e0d-3068e3ab8f3e
+    m_ActionName: Player2/Movement[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ee4da2b7-6cdf-4193-8d9a-8c28d02c0d51
+    m_ActionName: Player2/Jump[/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ad6b33cb-dfcf-46b3-93bc-42ef89e636d2
+    m_ActionName: Player2/Fire[/Keyboard/numpad0]
+>>>>>>> Stashed changes
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!212 &8945128607989167837
@@ -352,7 +383,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e679ec5b3b6d6b74a9856edee2ab876f, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
